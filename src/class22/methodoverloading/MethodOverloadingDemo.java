@@ -11,9 +11,8 @@ public class MethodOverloadingDemo {
 
     void addArrays(int[] arr){
         int sum=0;
-        for (int num:arr
-             ) {
-sum+=num;
+        for (int num:arr) {
+        sum+=num;
         }
         System.out.println(sum);
     }
